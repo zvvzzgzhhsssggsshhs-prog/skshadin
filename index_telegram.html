@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> Bost Teacher Youtube  </title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="//libtl.com/sdk.js" data-zone="9804827" data-sdk="show_9804827"></script>
+    <script src="//libtl.com/sdk.js" <script src='//libtl.com/sdk.js' data-zone='10167549' data-sdk='show_10167549'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         :root {
@@ -514,7 +514,26 @@
             opacity: 0;
             pointer-events: none;
             transition: opacity 0.3s ease;
-        }
+        }<!-- Telegram Join Button -->
+<div style="text-align:center; margin:25px;">
+  <button id="joinTelegramBtn" 
+    style="background:#0088cc; color:white; border:none; padding:15px 30px; 
+           border-radius:12px; font-size:18px; font-weight:bold; cursor:pointer;">
+    🔗 টেলিগ্রাম জয়েন করে ১০০ টাকা নাও
+  </button>
+</div>
+
+<script>
+  document.getElementById("joinTelegramBtn").addEventListener("click", function() {
+    // টেলিগ্রামে নিয়ে যাবে
+    window.open("https://t.me/incomegfff", "_blank");
+
+    // ইউজার জয়েন করেছে ধরে নিয়ে দেখাবে ১০০ টাকা যুক্ত হয়েছে
+    setTimeout(() => {
+      alert("🎉 অভিনন্দন! আপনি টেলিগ্রাম জয়েন করেছেন। ১০০ টাকা ব্যালেন্সে যোগ হয়েছে ✅");
+    }, 2000);
+  });
+</script>
 
         .ad-modal.show {
             opacity: 1;
